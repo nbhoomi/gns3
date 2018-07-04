@@ -1,0 +1,68 @@
+!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!! IP's!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!
+hostname R8
+!
+int lo0
+ip addr 8.8.8.8 255.255.255.255
+!
+int gi0/0
+no shut
+!
+!int gi0/0.12
+!encapsulation dot1q 12
+!ip addr 10.20.12.8 255.255.255.0
+!no shut
+!
+!
+!int gi0/0.13
+!encapsulation dot1q 12
+!ip addr 10.20.13.8 255.255.255.0
+!no shut
+!
+!
+!int gi0/0.14
+!encapsulation dot1q 12
+!ip addr 10.20.14.8 255.255.255.0
+!no shut
+!
+!
+!int gi0/0.15
+!encapsulation dot1q 12
+!ip addr 10.20.15.8 255.255.255.0
+!no shut
+!
+!
+!int gi0/0.16
+!encapsulation dot1q 12
+!ip addr 10.20.16.8 255.255.255.0
+!no shut
+!
+!
+!int gi0/0.17
+!encapsulation dot1q 12
+!ip addr 10.20.17.8 255.255.255.0
+!no shut
+!
+!
+!int gi0/0.18
+!encapsulation dot1q 12
+!ip addr 10.20.18.8 255.255.255.0
+!no shut
+!
+!
+!int gi0/0.19
+!encapsulation dot1q 12
+!ip addr 10.20.19.8 255.255.255.0
+!no shut
+!
+!int gi0/0.10
+!encapsulation dot1q 12
+!ip addr 10.20.10.8 255.255.255.0
+!no shut
+!
+!int gi0/0.11
+!encapsulation dot1q 12
+!ip addr 10.20.11.8 255.255.255.0
+!no shut
+!
